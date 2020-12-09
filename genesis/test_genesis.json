@@ -1,0 +1,3282 @@
+{
+  "height": 811055,
+  "genesis_time": "2020-11-04T10:05:48Z",
+  "chain_id": "testnet-2020-11-04",
+  "epochtime": {
+    "params": {
+      "interval": 600
+    },
+    "base": 0
+  },
+  "registry": {
+    "params": {
+      "gas_costs": {
+        "deregister_entity": 1000,
+        "register_entity": 1000,
+        "register_node": 1000,
+        "register_runtime": 1000,
+        "runtime_epoch_maintenance": 1000,
+        "unfreeze_node": 1000,
+        "update_keymanager": 1000
+      },
+      "max_node_expiration": 2
+    },
+    "entities": [
+      {
+        "untrusted_raw_value": "o2F2AWJpZFgg1vx76faX+ARwAY4sEoEaC9oMgZ/BFWfij17SrSS2iQ1lbm9kZXOBWCC7IsViT8HTczrJTcNgWcxrSl1IufN7IGa0r1YB411dfA==",
+        "signature": {
+          "public_key": "1vx76faX+ARwAY4sEoEaC9oMgZ/BFWfij17SrSS2iQ0=",
+          "signature": "nAfTFD6oyYiZ88cmk4N35nhV579ZXxK0WYBYT2eI9XF3i5LWqCIhKpx3h4xNnuHLWTUCvRG8HhE9srwBUIeCDA=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFgg/WtQZM18TNzYdWRlLn4SW7Orn/dK3O5iuLXqBsIiawtlbm9kZXOBWCDTfjlCXaed3R8lfpyMgXRC2hS4An2tlb4KZuF+UoHqNA==",
+        "signature": {
+          "public_key": "/WtQZM18TNzYdWRlLn4SW7Orn/dK3O5iuLXqBsIiaws=",
+          "signature": "Fw77bmcCy3oXyrgcptX76ncQQzCZAcHk7k2VQMPTyjDRGVeNVy/+4jPIuE6lZ9YpDEmfm1Sxg8LCxsiATjOtCQ=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggeDSVqk3OC1t5/HzTcdLJH0nZ4FVCv1ikXrY0JMbYgcplbm9kZXOBWCDKECJVHcRQGxz7QaohmJ0ky2AHldWO36HMyO+dGOEj8w==",
+        "signature": {
+          "public_key": "eDSVqk3OC1t5/HzTcdLJH0nZ4FVCv1ikXrY0JMbYgco=",
+          "signature": "7N6k8Fb4Fyjnh2pkDdsZIr1WugF187pouX7vM/21sDE/QIZ7Ah+Cog64yc5i8Eb7/vbit03rfpz4ygCZf2gkAQ=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggRKCvE04I/BWb7VC6tzAetR3cLSlmPOrshElcoFLCjnllbm9kZXOBWCDYoEW40AZgwDy+Ug2dVyfjLtWchJd57bAXBnmRfcuuHQ==",
+        "signature": {
+          "public_key": "RKCvE04I/BWb7VC6tzAetR3cLSlmPOrshElcoFLCjnk=",
+          "signature": "7mxy25Dcb25e6p1/f+Xe6TNRWylD2+JXR73Fq2euWQA/lyyeSecTLU2sGo98pSgCmjppznbZ74zMMfsg4yHqBg=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggekP4j+817Qhh3/DruBXVv/8ypI2CAnK1LAfuVxNazNdlbm9kZXOBWCBeYV6OA2nXN/7jBoerS2Gx9g8U4knSqfS4lq0OKoTYqA==",
+        "signature": {
+          "public_key": "ekP4j+817Qhh3/DruBXVv/8ypI2CAnK1LAfuVxNazNc=",
+          "signature": "6b0z+wWf/r33Arin6Lh7CkwdFm8tKlEk4pZ4ZFMf+tAwZEbmXiYl2gnSokJeu5HxlUW1Ky1dZoJwk+uXiap2Dg=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggbLgW7X3Ke7gUyyzDUjEf9rDvEAMGRa0hb4Vj8jtPOgZlbm9kZXODWCAgC/EqrGt9mtnFDhBxlhNiGE1H32Cvd25yTz0mPC+2Glgg/+jFssIig6yKkZigW0vbDh3sJky0kmlZRhsMV+RReeNYINuFad6Ghh74AZoX060+fMI0EYEiLIvQs4bWrSBOllvi",
+        "signature": {
+          "public_key": "bLgW7X3Ke7gUyyzDUjEf9rDvEAMGRa0hb4Vj8jtPOgY=",
+          "signature": "qnkl6LeVf6L7e4CUesjgO0wdCMOG0SCeNDzwDdoyqTr/RpyWxbMtFocsLOdBul2eGdWtNE2C5NAAoGq4EwHVDQ=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggrbUaXSUbCvrZrYiC0H4eLyGVZvrFkQEOrQoZjaDAolFlbm9kZXOHWCDQnPdfdZUp8Y6eJjB7iJO/AZojKkv5bn122TZ4fW9NtlgggIOAuyZJlj3S59DLI7vt+4tkcmAIoICDP136R3NMwZ5YIOtKfVKfpWVLHY/prFrbzLNrxjPkN/26cY8r1m4xtS5+WCA7ZjJTupuNp5WgjuW4B49p0K41bjN0qnJZA+di4kHIf1ggyD4QsYfp+a17uQz27TKg+bGUW2x0/OS+BjznctzI+w5YIPvVpBZJR3o+/2AQh2HQU6wdNgoO8y/cpwSvRKfhyfijWCDFeN6UjKSjRpMDjZ+bpf3771FehKwHcyFsk9mV8LNQYg==",
+        "signature": {
+          "public_key": "rbUaXSUbCvrZrYiC0H4eLyGVZvrFkQEOrQoZjaDAolE=",
+          "signature": "ReIglLgBwi//3iQcCy7wvpiXMMpkAdDAzdyv3xw3qjvktwLBpOGX4j2/wD2gA921mrdztAZRxXVC3l+9pmWgCw=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggLl57tFW+hM4jSBofpR8LVVSLYuz/FX73apLb7WyN2jdlbm9kZXOBWCDsVKcgxv2Lntu5Eoon2oQNx60qidZTXPqj4Cfp8d2O5g==",
+        "signature": {
+          "public_key": "Ll57tFW+hM4jSBofpR8LVVSLYuz/FX73apLb7WyN2jc=",
+          "signature": "kjxtFLRKqH85RNO4fp7MakFCmV6V+Y5+wglZo0J4Mu7Bq87pCBdL6r7SV02bao1BY8KV9xv43E293BUPLFhACg=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggf7ZHY75gi10C9jQXz4N3P/4dRQv//LA+29SuW02nZVRlbm9kZXOBWCDoMtIjDLWTC7AbQRrhlY0XlCVGQBfroHMdEERE2dc4fw==",
+        "signature": {
+          "public_key": "f7ZHY75gi10C9jQXz4N3P/4dRQv//LA+29SuW02nZVQ=",
+          "signature": "RN3siZavSLTLfrX/ef0YgXyteHspSwCrrQmQ0TB6EEjiKh1nMqqSzx4FGMX0NgwjJC8iKXfYUa7WPYx7ZEYlDA=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggLMoB+QiEaKQEbFP8dXfJ5GEhMLQgOlg8tN+kmJUH0oFlbm9kZXOBWCCNGlisrVspR5iC3REj7vZwq2ebjS1KWoNwUxUOkiA0tw==",
+        "signature": {
+          "public_key": "LMoB+QiEaKQEbFP8dXfJ5GEhMLQgOlg8tN+kmJUH0oE=",
+          "signature": "zaI2TTcZd2b4Jp/2BumGEMq+206LMNcvPcXyYlNyuD031d1+jxaYPHac7o5AsfPFOoH6z6Q83ZBXOjajw4VzBA=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggy0Eom9+Xnq8YoNpSS//IDts2CaZTsbEjkn8a3vdy08Flbm9kZXOBWCDfOFONigyblvcA4TFnMVAo92uiWRM+6PqwMvKFsUBx4g==",
+        "signature": {
+          "public_key": "y0Eom9+Xnq8YoNpSS//IDts2CaZTsbEjkn8a3vdy08E=",
+          "signature": "ZiUbvISTQhoF72jZECducwcY5oBjkunSk6ADITZ7HvVzTxvg9rKA+Y+6paM0UMYYCTitbeyxGbQKg4OD8C8ZCg=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggdyh4HqSlTabRSgqUHmcUOUt2bmcjCkmTDL3IAZV9ZCdlbm9kZXOBWCC/8iOBBxp0PfKYPEaiLIaYE73TLLNEOi3YpKyg7bxviA==",
+        "signature": {
+          "public_key": "dyh4HqSlTabRSgqUHmcUOUt2bmcjCkmTDL3IAZV9ZCc=",
+          "signature": "S4XfkZB0bTVVwgSO/gRIWaetZE7AX07zulsy3oNP2qTZQMzfaKXIKhb0hH/qm3Z8m0EX8RWsaMBsBeOSt5LFCw=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFgg+MBgzI9mlzJsOxIDVib7XsY4X4a4YqX67dpH8It9sX5lbm9kZXODWCBAemBDpTjpGvIP9IBqkCtRt31Jl9Pn90f3TlK6sUR8dVggtLd1MJpaFrhaur7Quzq3NVEX+FvdeSGny9Bf5mMuU4BYIM6MfY7Lm7esuvh4liEMv1JpbJwjrM1fxQLv3P+DGDnx",
+        "signature": {
+          "public_key": "+MBgzI9mlzJsOxIDVib7XsY4X4a4YqX67dpH8It9sX4=",
+          "signature": "tyFVxIDpyNAVTZZsUXecASSFbKfXq4WOTFuPSCpPnBgaWA7jIDY5bQkILU3xkgFdhK8N/oPFtzcblzjZbK+PDQ=="
+        }
+      }
+    ],
+    "suspended_runtimes": [
+      {
+        "untrusted_raw_value": "q2F2AWJpZFggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEjRVZka2luZAFnZ2VuZXNpc6Rlcm91bmQAZXN0YXRlg4JUHMooYA10kTZVILMbRm+IZHuYOexYUvhQgIsRXuxH9s9+NQAAAKBW6B8XG8xVpv+DReaSwPhuW0jgG5lsrcABYi+142O0IaDF0kYBhvcjPJJ+fbLcxwPA5QC2U8qCJzt7+tgEXYWkcICCU2dlbmVzaXNfaW5pdGlhbGl6ZWRBAYJUcRAxa2GNINDERyisKj1oNTbqaCtYVPhSgI0BQx4Prm1yF8qgAAAAoFboHxcbzFWm/4NF5pLA+G5bSOAbmWytwAFiL7XjY7QhoMXSRgGG9yM8kn59stzHA8DlALZTyoInO3v62ARdhaRwgGpzdGF0ZV9yb290WCD3KAqOAWmNKtuOsKteBL9QcRWzwe6Nb6WYkE8DEGmSVnBzdG9yYWdlX3JlY2VpcHRz9mdzdG9yYWdlp2pncm91cF9zaXplAW1tYXhfYXBwbHlfb3BzAnNjaGVja3BvaW50X2ludGVydmFsAHNjaGVja3BvaW50X251bV9rZXB0AHVjaGVja3BvaW50X2NodW5rX3NpemUAdW1pbl93cml0ZV9yZXBsaWNhdGlvbgF4G21heF9hcHBseV93cml0ZV9sb2dfZW50cmllcxoAAYagaGV4ZWN1dG9ypGpncm91cF9zaXplAW1yb3VuZF90aW1lb3V0BXFncm91cF9iYWNrdXBfc2l6ZQByYWxsb3dlZF9zdHJhZ2dsZXJzAGh2ZXJzaW9uc6FndmVyc2lvbqBpZW50aXR5X2lkWCD4wGDMj2aXMmw7EgNWJvtexjhfhrhipfrt2kfwi32xfmx0ZWVfaGFyZHdhcmUAbXR4bl9zY2hlZHVsZXKlaWFsZ29yaXRobWZzaW1wbGVubWF4X2JhdGNoX3NpemUZA+hzYmF0Y2hfZmx1c2hfdGltZW91dBo7msoAdG1heF9iYXRjaF9zaXplX2J5dGVzGgEAAAB1cHJvcG9zZV9iYXRjaF90aW1lb3V0BXBhZG1pc3Npb25fcG9saWN5oXBlbnRpdHlfd2hpdGVsaXN0oWhlbnRpdGllc6FYIPjAYMyPZpcybDsSA1Ym+17GOF+GuGKl+u3aR/CLfbF+9Q==",
+        "signature": {
+          "public_key": "+MBgzI9mlzJsOxIDVib7XsY4X4a4YqX67dpH8It9sX4=",
+          "signature": "owaR704NKbMLotPb3L4QZeIxT78G08jjKZj0oJzgX1nrX3ky8ep1G5nUW/V7lFlf22AKjRx1of7N4RLZgULRBQ=="
+        }
+      },
+      {
+        "untrusted_raw_value": "q2F2AWJpZFggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wFka2luZAFnZ2VuZXNpc6Rlcm91bmQAZXN0YXRlg4JUHMooYA10kTZVILMbRm+IZHuYOexYUvhQgIsRXuxH9s9+NQAAAKBW6B8XG8xVpv+DReaSwPhuW0jgG5lsrcABYi+142O0IaDF0kYBhvcjPJJ+fbLcxwPA5QC2U8qCJzt7+tgEXYWkcICCU2dlbmVzaXNfaW5pdGlhbGl6ZWRBAYJUcRAxa2GNINDERyisKj1oNTbqaCtYVPhSgI0BQx4Prm1yF8qgAAAAoFboHxcbzFWm/4NF5pLA+G5bSOAbmWytwAFiL7XjY7QhoMXSRgGG9yM8kn59stzHA8DlALZTyoInO3v62ARdhaRwgGpzdGF0ZV9yb290WCD3KAqOAWmNKtuOsKteBL9QcRWzwe6Nb6WYkE8DEGmSVnBzdG9yYWdlX3JlY2VpcHRz9mdzdG9yYWdlp2pncm91cF9zaXplAW1tYXhfYXBwbHlfb3BzAnNjaGVja3BvaW50X2ludGVydmFsGQPoc2NoZWNrcG9pbnRfbnVtX2tlcHQFdWNoZWNrcG9pbnRfY2h1bmtfc2l6ZRoBAAAAdW1pbl93cml0ZV9yZXBsaWNhdGlvbgF4G21heF9hcHBseV93cml0ZV9sb2dfZW50cmllcxoAAYagaGV4ZWN1dG9ypGpncm91cF9zaXplAW1yb3VuZF90aW1lb3V0BXFncm91cF9iYWNrdXBfc2l6ZQByYWxsb3dlZF9zdHJhZ2dsZXJzAGh2ZXJzaW9uc6FndmVyc2lvbqBpZW50aXR5X2lkWCCttRpdJRsK+tmtiILQfh4vIZVm+sWRAQ6tChmNoMCiUWx0ZWVfaGFyZHdhcmUAbXR4bl9zY2hlZHVsZXKlaWFsZ29yaXRobWZzaW1wbGVubWF4X2JhdGNoX3NpemUZJxBzYmF0Y2hfZmx1c2hfdGltZW91dBo7msoAdG1heF9iYXRjaF9zaXplX2J5dGVzGgEAAAB1cHJvcG9zZV9iYXRjaF90aW1lb3V0BXBhZG1pc3Npb25fcG9saWN5oXBlbnRpdHlfd2hpdGVsaXN0oWhlbnRpdGllc6NYIGy4Fu19ynu4FMssw1IxH/aw7xADBkWtIW+FY/I7TzoG9VggrbUaXSUbCvrZrYiC0H4eLyGVZvrFkQEOrQoZjaDAolH1WCDLQSib35eerxig2lJL/8gO2zYJplOxsSOSfxre93LTwfU=",
+        "signature": {
+          "public_key": "rbUaXSUbCvrZrYiC0H4eLyGVZvrFkQEOrQoZjaDAolE=",
+          "signature": "f0pwsnFIRUpNyWHqtbz81ZmIZvgygIDaN61PlVVqDkMchb8V/fWBIZTLQtI0Yp8DTSgCUDgquOdHcG+9JkBgCw=="
+        }
+      },
+      {
+        "untrusted_raw_value": "q2F2AWJpZFggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEjRVVka2luZAFnZ2VuZXNpc6Rlcm91bmQAZXN0YXRl9mpzdGF0ZV9yb290WCDGcrjR71btKKuHw2IsURQGm90617j5c3SY0MAezvCWenBzdG9yYWdlX3JlY2VpcHRz9mdzdG9yYWdlp2pncm91cF9zaXplAW1tYXhfYXBwbHlfb3BzAnNjaGVja3BvaW50X2ludGVydmFsAHNjaGVja3BvaW50X251bV9rZXB0AHVjaGVja3BvaW50X2NodW5rX3NpemUAdW1pbl93cml0ZV9yZXBsaWNhdGlvbgF4G21heF9hcHBseV93cml0ZV9sb2dfZW50cmllcxoAAYagaGV4ZWN1dG9ypGpncm91cF9zaXplAW1yb3VuZF90aW1lb3V0BXFncm91cF9iYWNrdXBfc2l6ZQByYWxsb3dlZF9zdHJhZ2dsZXJzAGh2ZXJzaW9uc6FndmVyc2lvbqBpZW50aXR5X2lkWCD4wGDMj2aXMmw7EgNWJvtexjhfhrhipfrt2kfwi32xfmx0ZWVfaGFyZHdhcmUAbXR4bl9zY2hlZHVsZXKlaWFsZ29yaXRobWZzaW1wbGVubWF4X2JhdGNoX3NpemUZA+hzYmF0Y2hfZmx1c2hfdGltZW91dBo7msoAdG1heF9iYXRjaF9zaXplX2J5dGVzGgEAAAB1cHJvcG9zZV9iYXRjaF90aW1lb3V0BXBhZG1pc3Npb25fcG9saWN5oXBlbnRpdHlfd2hpdGVsaXN0oWhlbnRpdGllc6FYIPjAYMyPZpcybDsSA1Ym+17GOF+GuGKl+u3aR/CLfbF+9Q==",
+        "signature": {
+          "public_key": "+MBgzI9mlzJsOxIDVib7XsY4X4a4YqX67dpH8It9sX4=",
+          "signature": "H/ydjvLdOnU+vcrKLOawVcwcsO/fXsMCRlFUcu+nONN/xory3VECBzDjloAVdvFWW6g78ID/GynbjOgdpdgKAg=="
+        }
+      },
+      {
+        "untrusted_raw_value": "q2F2AWJpZFggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wBka2luZAFnZ2VuZXNpc6Rlcm91bmQAZXN0YXRlg4JUHMooYA10kTZVILMbRm+IZHuYOexYUPhOgIkFa8deLWMQAACgVugfFxvMVab/g0XmksD4bltI4BuZbK3AAWIvteNjtCGgxdJGAYb3IzySfn2y3McDwOUAtlPKgic7e/rYBF2FpHCAglNnZW5lc2lzX2luaXRpYWxpemVkQQGCVHEQMWthjSDQxEcorCo9aDU26mgrWFT4UoCNAUMeD65tchfKoAAAAKBW6B8XG8xVpv+DReaSwPhuW0jgG5lsrcABYi+142O0IaDF0kYBhvcjPJJ+fbLcxwPA5QC2U8qCJzt7+tgEXYWkcIBqc3RhdGVfcm9vdFggc+6VjI0+V/k1GJElApd54KvtdQCoeKP0txpDd7r1fdtwc3RvcmFnZV9yZWNlaXB0c/Znc3RvcmFnZadqZ3JvdXBfc2l6ZQJtbWF4X2FwcGx5X29wcwJzY2hlY2twb2ludF9pbnRlcnZhbABzY2hlY2twb2ludF9udW1fa2VwdAB1Y2hlY2twb2ludF9jaHVua19zaXplAHVtaW5fd3JpdGVfcmVwbGljYXRpb24BeBttYXhfYXBwbHlfd3JpdGVfbG9nX2VudHJpZXMaAAGGoGhleGVjdXRvcqRqZ3JvdXBfc2l6ZQJtcm91bmRfdGltZW91dAVxZ3JvdXBfYmFja3VwX3NpemUAcmFsbG93ZWRfc3RyYWdnbGVycwBodmVyc2lvbnOhZ3ZlcnNpb26gaWVudGl0eV9pZFggrbUaXSUbCvrZrYiC0H4eLyGVZvrFkQEOrQoZjaDAolFsdGVlX2hhcmR3YXJlAG10eG5fc2NoZWR1bGVypWlhbGdvcml0aG1mc2ltcGxlbm1heF9iYXRjaF9zaXplGQPoc2JhdGNoX2ZsdXNoX3RpbWVvdXQbAAAAAWWgvAB0bWF4X2JhdGNoX3NpemVfYnl0ZXMaAQAAAHVwcm9wb3NlX2JhdGNoX3RpbWVvdXQFcGFkbWlzc2lvbl9wb2xpY3mhcGVudGl0eV93aGl0ZWxpc3ShaGVudGl0aWVzolggbLgW7X3Ke7gUyyzDUjEf9rDvEAMGRa0hb4Vj8jtPOgb1WCCttRpdJRsK+tmtiILQfh4vIZVm+sWRAQ6tChmNoMCiUfU=",
+        "signature": {
+          "public_key": "rbUaXSUbCvrZrYiC0H4eLyGVZvrFkQEOrQoZjaDAolE=",
+          "signature": "8auCVO/L0fFFUADet4OXjeo57w2yDqTV8FoZiKWX6JmboWimf9Pb4v7y/jNA6NTt9XmXwNH3O7+u79i9H5okCA=="
+        }
+      },
+      {
+        "untrusted_raw_value": "q2F2AWJpZFggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wJka2luZAFnZ2VuZXNpc6Rlcm91bmQAZXN0YXRlg4JUHMooYA10kTZVILMbRm+IZHuYOexYUvhQgIsRXuxH9s9+NQAAAKBW6B8XG8xVpv+DReaSwPhuW0jgG5lsrcABYi+142O0IaDF0kYBhvcjPJJ+fbLcxwPA5QC2U8qCJzt7+tgEXYWkcICCU2dlbmVzaXNfaW5pdGlhbGl6ZWRBAYJUcRAxa2GNINDERyisKj1oNTbqaCtYVPhSgI0BQx4Prm1yF8qgAAAAoFboHxcbzFWm/4NF5pLA+G5bSOAbmWytwAFiL7XjY7QhoMXSRgGG9yM8kn59stzHA8DlALZTyoInO3v62ARdhaRwgGpzdGF0ZV9yb290WCD3KAqOAWmNKtuOsKteBL9QcRWzwe6Nb6WYkE8DEGmSVnBzdG9yYWdlX3JlY2VpcHRz9mdzdG9yYWdlp2pncm91cF9zaXplAW1tYXhfYXBwbHlfb3BzAnNjaGVja3BvaW50X2ludGVydmFsAHNjaGVja3BvaW50X251bV9rZXB0AHVjaGVja3BvaW50X2NodW5rX3NpemUAdW1pbl93cml0ZV9yZXBsaWNhdGlvbgF4G21heF9hcHBseV93cml0ZV9sb2dfZW50cmllcxoAAYagaGV4ZWN1dG9ypGpncm91cF9zaXplAW1yb3VuZF90aW1lb3V0BXFncm91cF9iYWNrdXBfc2l6ZQByYWxsb3dlZF9zdHJhZ2dsZXJzAGh2ZXJzaW9uc6FndmVyc2lvbqBpZW50aXR5X2lkWCCttRpdJRsK+tmtiILQfh4vIZVm+sWRAQ6tChmNoMCiUWx0ZWVfaGFyZHdhcmUAbXR4bl9zY2hlZHVsZXKlaWFsZ29yaXRobWZzaW1wbGVubWF4X2JhdGNoX3NpemUZJxBzYmF0Y2hfZmx1c2hfdGltZW91dBo7msoAdG1heF9iYXRjaF9zaXplX2J5dGVzGgEAAAB1cHJvcG9zZV9iYXRjaF90aW1lb3V0BXBhZG1pc3Npb25fcG9saWN5oXBlbnRpdHlfd2hpdGVsaXN0oWhlbnRpdGllc6JYIGy4Fu19ynu4FMssw1IxH/aw7xADBkWtIW+FY/I7TzoG9VggrbUaXSUbCvrZrYiC0H4eLyGVZvrFkQEOrQoZjaDAolH1",
+        "signature": {
+          "public_key": "rbUaXSUbCvrZrYiC0H4eLyGVZvrFkQEOrQoZjaDAolE=",
+          "signature": "6mGxfJikrcz8EextKJzaBARYjE+WWIk5aLJQkRvg2gb2K0Fq6TfMWF7FAZWw2KWT1AoHbqTJjvF9VCzzr01UDw=="
+        }
+      }
+    ],
+    "nodes": [
+      {
+        "untrusted_raw_value": "qWF2AWJpZFgg2KBFuNAGYMA8vlINnVcn4y7VnISXee2wFwZ5kX3Lrh1jcDJwomJpZFggNdoETEoGfCdX0XWfTpL1dPv1ttfcKz4EfYqpjYIIneFpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIGZBc0FG+kIAYM3DwGpgvvma3TnQ0u/9sF3pg812B5NoaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCAhuCb45gMThmufzMBcOFZN2pOB/3N7WIuMLnsCt4/eeWVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIJ35ajGo0fugKnXrKhc50mhtB92v6YhjxiLedWV88uGOaWFkZHJlc3Nlc4GiYmlkWCA12gRMSgZ8J1fRdZ9OkvV0+/W219wrPgR9iqmNggid4WdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//9QQNAUZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCBEoK8TTgj8FZvtULq3MB61HdwtKWY86uyESVygUsKOeWpleHBpcmF0aW9uGQVJ",
+        "signatures": [
+          {
+            "public_key": "2KBFuNAGYMA8vlINnVcn4y7VnISXee2wFwZ5kX3Lrh0=",
+            "signature": "NPVwTKQyWXuL6gkIA39y0OyRqGuqt5TZSlVEBm+klHpve8azZXDAmd/Vf2lIrchFBeBHfdGSMlsFDWSYPcQuCA=="
+          },
+          {
+            "public_key": "NdoETEoGfCdX0XWfTpL1dPv1ttfcKz4EfYqpjYIIneE=",
+            "signature": "hbPD9wMxMaVjytZvxMflgFPM8VsnFdhK5C8XidfbdBHks0O7F+V6d4kN1h1WwHw2QjWSm9+39K9ldlxdaJ0+BQ=="
+          },
+          {
+            "public_key": "nflqMajR+6AqdesqFznSaG0H3a/piGPGIt51ZXzy4Y4=",
+            "signature": "KV3Vd5qESyZc7XuM8q5oXarZaTSQV3kWcJZ1GWY6Zu6EEwB7jvk6ZxZBE6bEA7VM3sQcXT1RqIon9qKt56pwCw=="
+          },
+          {
+            "public_key": "ZkFzQUb6QgBgzcPAamC++ZrdOdDS7/2wXemDzXYHk2g=",
+            "signature": "vcedqfz64e2Ai9Mu/n1z3EheuaLW4X7guRe1I5mHSLkzFG2VOhoj6c2AciqY6jlMQXAFj3ccdebDVXwijEUqAg=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFgguyLFYk/B03M6yU3DYFnMa0pdSLnzeyBmtK9WAeNdXXxjcDJwomJpZFggBwZ9PYMw2f1nhXyw1iP5S6t+7KzG++EYBWYMJ/YsgbJpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIITUeYb2TxrGeOVjtw6TmQUuVqJUGNMGxfsd+q0FTR4naWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIFwBskssPyD3BqRKyLnUUZJAwdsBN0oJzFozDcOmmrSKaWFkZHJlc3Nlc4GiYmlkWCAHBn09gzDZ/WeFfLDWI/lLq37srMb74RgFZgwn9iyBsmdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//8iVsW1ZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCDW/Hvp9pf4BHABjiwSgRoL2gyBn8EVZ+KPXtKtJLaJDWpleHBpcmF0aW9uGQVJ",
+        "signatures": [
+          {
+            "public_key": "uyLFYk/B03M6yU3DYFnMa0pdSLnzeyBmtK9WAeNdXXw=",
+            "signature": "e3ACfNKrbKiceq4BRA/FK6Omcz/VZZDNzMMIUWbTicB0l73cCQmO9R7B8Gj6Eha6SR8KCUdRKvWru8zOlbVgBA=="
+          },
+          {
+            "public_key": "BwZ9PYMw2f1nhXyw1iP5S6t+7KzG++EYBWYMJ/YsgbI=",
+            "signature": "F91KiHuIBOMN/D4gkxAXQeS3nR54IMxVVHzajupU38dmAjoB+IVsR7USc/AY7BDrX2WQIwKH2q0rAH2V0+5zAw=="
+          },
+          {
+            "public_key": "XAGySyw/IPcGpErIudRRkkDB2wE3SgnMWjMNw6aatIo=",
+            "signature": "ZZw3ZvtlCeKKx3qhzNTw61IV3TOYu/bcCqcyxzWFVqVORPuQUAmK6c4aK5GjJGhJik5KSiRdwk2O7V3hA+9GCQ=="
+          },
+          {
+            "public_key": "hNR5hvZPGsZ45WO3DpOZBS5WolQY0wbF+x36rQVNHic=",
+            "signature": "AlAhnAByF0qmZoU8HSB877WHJtkGqJPBnTzVK3wynEBW/gc1cPiY8oPed1zie9y4wdSu++ytzMYvIWU7aipXBg=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFgg7FSnIMb9i57buRKKJ9qEDcetKonWU1z6o+An6fHdjuZjcDJwomJpZFggI/ixi/J2eiSv1fGfpk2Rym/+bCliAUa+io0fUNcX5JFpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIMj90vM5FWRZFok5quPUqgj+U8x1mKFEzyZsopK7h4VUaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCB8yrDGgQG48W/O+xmo+MuQEu5Bl0CY+tMClH0CYJh8KmVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIDfi4LJTp/kyboso1QbTLaMUyCNOt4hAJiE1EK4elkXaaWFkZHJlc3Nlc4GiYmlkWCAj+LGL8nZ6JK/V8Z+mTZHKb/5sKWIBRr6KjR9Q1xfkkWdhZGRyZXNzo2JJUEQs7x7EZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCAuXnu0Vb6EziNIGh+lHwtVVIti7P8VfvdqktvtbI3aN2pleHBpcmF0aW9uGQVJ",
+        "signatures": [
+          {
+            "public_key": "7FSnIMb9i57buRKKJ9qEDcetKonWU1z6o+An6fHdjuY=",
+            "signature": "W30sJpa14/6cLNE6wFiEjMtv4h/E14S0zM9wvOyfg+Q2HwHjK7QuH3A2tZpteZTaUqYloPvsHXb7nFhLQObbAQ=="
+          },
+          {
+            "public_key": "I/ixi/J2eiSv1fGfpk2Rym/+bCliAUa+io0fUNcX5JE=",
+            "signature": "cWu6BANevFjCUU3HMV1GDwQqorVKfVQDPspa5+ikXnvVlDYvkx13zJPOCp7g1gTAZ0OWhB6vWuEZOUpmsat7Cg=="
+          },
+          {
+            "public_key": "N+LgslOn+TJuiyjVBtMtoxTII063iEAmITUQrh6WRdo=",
+            "signature": "c+E4AGNM+aVAOjbA0+/IT7DPklFEhPYwn0mly8TkM6FbS4Hy50Sxd3tPpCvYStUzY3Mha8ifsdouTwf/eR8oDg=="
+          },
+          {
+            "public_key": "yP3S8zkVZFkWiTmq49SqCP5TzHWYoUTPJmyikruHhVQ=",
+            "signature": "gBfnnF5QS1dfkq3CHMzcUjSr7vLvEytEzaFbJ69fZCYf7P0h3ru3PSsYYJyG2LIK6B2visiJbjjxpXVCJoFBCA=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFggv/IjgQcadD3ymDxGoiyGmBO90yyzRDot2KSsoO28b4hjcDJwomJpZFggMrr8AiqoDu4NmJxYht/jnIRTmeghjgir9HdJnJij4IRpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIJX6yMvLTGTcpspK64Do7sjuDtgZDT+zqNIrf6ZwRKNzaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCDHe3VBmFf7NZZAxJbvjyYA0pKRH3i7orCviWH0ULci62Vyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIKpmTf94Ynl/kldPxHbnr2WItV4bT+8diE8HFM3IsO6faWFkZHJlc3Nlc4GiYmlkWCAyuvwCKqgO7g2YnFiG3+OchFOZ6CGOCKv0d0mcmKPghGdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//+saDjZZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCB3KHgepKVNptFKCpQeZxQ5S3ZuZyMKSZMMvcgBlX1kJ2pleHBpcmF0aW9uGQVJ",
+        "signatures": [
+          {
+            "public_key": "v/IjgQcadD3ymDxGoiyGmBO90yyzRDot2KSsoO28b4g=",
+            "signature": "wPOUWXRRQrxgwVAAOvM6/Y9lcLi4ErsVGh0uI5dvy1kOy3+LC2lVGExdtncjWpIWEtfevewFNYNyAVXyOADACg=="
+          },
+          {
+            "public_key": "Mrr8AiqoDu4NmJxYht/jnIRTmeghjgir9HdJnJij4IQ=",
+            "signature": "RESpnKJ+otbI4XcfO8te3hpmemoNGeKP980v6rXfUTMNdhattoAzJ5HP6q4fdmpzRmia5Iyf852j1RwrVgeTCA=="
+          },
+          {
+            "public_key": "qmZN/3hieX+SV0/EduevZYi1XhtP7x2ITwcUzciw7p8=",
+            "signature": "ZcL6OVTID4/mKza7ZimeX93SSe8L3uCmP7JBhqHRHmwOTWxVEJwq2DVEdDk/+IsiPjnsuwJpxkuxcQHgkPunAg=="
+          },
+          {
+            "public_key": "lfrIy8tMZNymykrrgOjuyO4O2BkNP7Oo0it/pnBEo3M=",
+            "signature": "slHC0J7hCvO8FM678SJp4I1orgkBsfdSow5tU3BvFu2q0V35jnve0ZMu7Nxwlp8zc7TQ/g/lZNiMmrqIsVkmDQ=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFggyhAiVR3EUBsc+0GqIZidJMtgB5XVjt+hzMjvnRjhI/NjcDJwomJpZFggmJPmHZx+4gvd2J2p9ErVPofrKFW/aqYy9gc3bkvPa2ZpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIA22KJn34SEs0ODXejtkV9DwT827dFPPfeiIx+KInzjzaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIPjyyP1upH4RlaNjtYv7KYDxFZOnRyL5bZFj4Dremor7aWFkZHJlc3Nlc4GiYmlkWCCYk+YdnH7iC93Ynan0StU+h+soVb9qpjL2BzduS89rZmdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//8j3RNAZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCB4NJWqTc4LW3n8fNNx0skfSdngVUK/WKRetjQkxtiBympleHBpcmF0aW9uGQVJ",
+        "signatures": [
+          {
+            "public_key": "yhAiVR3EUBsc+0GqIZidJMtgB5XVjt+hzMjvnRjhI/M=",
+            "signature": "pKN/Ar4c6aeZWS7XWwWluDKFWrQJGveugBVUgBTmdDr8saNOUI7qwLpii6kl5etEb4HwBmVXymFdE0aBiZTdBw=="
+          },
+          {
+            "public_key": "mJPmHZx+4gvd2J2p9ErVPofrKFW/aqYy9gc3bkvPa2Y=",
+            "signature": "bIVDjf4JPpW9ZNrl0nV5wckGM8emrh6W8sAuknSicKRTBm6HccadU5fcjDxkjLA35/90eSpmfndYBwuLvMU8BA=="
+          },
+          {
+            "public_key": "+PLI/W6kfhGVo2O1i/spgPEVk6dHIvltkWPgOt6aivs=",
+            "signature": "6/KRpXXRdrzC8uNEeWr52vY8PlSrjJY0MtLpU2LjjiNesY9RXZi749ZHvvRFpNyD7TTkxStF+YLkiRAraVJJAw=="
+          },
+          {
+            "public_key": "DbYomffhISzQ4Nd6O2RX0PBPzbt0U8996IjH4oifOPM=",
+            "signature": "2NJOPWhlaBLXVqL5X24O8lFYVXOlwOWNJIsygtufbocwVtsulyTA+bFgukGHE4Z/SWy9W35RDpy9DKKV2byiBA=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFgg/+jFssIig6yKkZigW0vbDh3sJky0kmlZRhsMV+RReeNjcDJwomJpZFggbLoTqrAaBlgBcsZai0qZmuGCmKWSZK8jKTF6xZzOCpFpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIDNGZC43vWt/794yViN/aJ9uXBJiqdJWjPNn1foiN77VaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCBH2U4kz9gyES9IxFhGtZkP/UqOKiuaw3MEmpf2uCEt6WVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIGVUouN76S2IqVUINetCBMUmCabLVoh5+ZWTVO7oH9F1aWFkZHJlc3Nlc4GiYmlkWCBsuhOqsBoGWAFyxlqLSpma4YKYpZJkryMpMXrFnM4KkWdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//807XesZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCBsuBbtfcp7uBTLLMNSMR/2sO8QAwZFrSFvhWPyO086BmpleHBpcmF0aW9uGQVJ",
+        "signatures": [
+          {
+            "public_key": "/+jFssIig6yKkZigW0vbDh3sJky0kmlZRhsMV+RReeM=",
+            "signature": "qqCUKpqPCwfS/godw63zKwfbqIfAicEn3u+edqkFMQILot4lVWM9XOvoeZIXZ+JLQHjBYalK4j/A7Wdq/bg7Cw=="
+          },
+          {
+            "public_key": "bLoTqrAaBlgBcsZai0qZmuGCmKWSZK8jKTF6xZzOCpE=",
+            "signature": "NafWxdg2B3+7p3Q6QQ6sXCf1bZACJq+j8jRAMb8JfMJUYlYsdJ9yQFwBZWWKzFZkaUT9Ee694Oi8V+hs1Al3DQ=="
+          },
+          {
+            "public_key": "ZVSi43vpLYipVQg160IExSYJpstWiHn5lZNU7ugf0XU=",
+            "signature": "WXCsq2SjprhBBbmrP9VCqG5Ya5I7rHjtdbfOfLvZ0NEwZlvJK3pX6Tc+pEjvyT2o7qR/XGr7DP6YHOAjdJKtDg=="
+          },
+          {
+            "public_key": "M0ZkLje9a3/v3jJWI39on25cEmKp0laM82fV+iI3vtU=",
+            "signature": "eycFt6yuO1CvL4VQIPgbIq/D5hdUzUrzvlnsJilGUDIxMTa1ax543vU3y2XuMtBK0I3jVdJglMuNRuPNeX/DCQ=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFggjRpYrK1bKUeYgt0RI+72cKtnm40tSlqDcFMVDpIgNLdjcDJwomJpZFgglwd9ST/BR/l4X7bN5PLuUvOXxsxblh3IfwwC4siYpFtpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIK+6bV+YgVIwvKrws8l5HFX/fsTaxjBa7MFk6uRYQymzaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCDCQlXrIBG4q3mmou/+zaSIdvTTMcS/xLFxQN3OCP48PmVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYICYoqADfNcW/bT5sgtQVQ+iq+KK878hQczq02rKSf2aAaWFkZHJlc3Nlc4GiYmlkWCCXB31JP8FH+Xhfts3k8u5S85fGzFuWHch/DALiyJikW2dhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//8iSYXRZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCAsygH5CIRopARsU/x1d8nkYSEwtCA6WDy036SYlQfSgWpleHBpcmF0aW9uGQVJ",
+        "signatures": [
+          {
+            "public_key": "jRpYrK1bKUeYgt0RI+72cKtnm40tSlqDcFMVDpIgNLc=",
+            "signature": "BmaLT/Xst9VEXuoU6ZtHfZAguuBYqXJ9NzdTnIeXPx0jaZAFf8zaSOMnY/vtDt7Fm6fb8olzJNUQCg7oAUKUDQ=="
+          },
+          {
+            "public_key": "lwd9ST/BR/l4X7bN5PLuUvOXxsxblh3IfwwC4siYpFs=",
+            "signature": "HBt7bAiOIvmt/RRYX/KHqG0mBlhnMD0nl73xJrckDr/i3fBsSmUO0mj5skGphcqH1xXuMr3sJqfn/hcYirY0Bg=="
+          },
+          {
+            "public_key": "JiioAN81xb9tPmyC1BVD6Kr4orzvyFBzOrTaspJ/ZoA=",
+            "signature": "63M2WxDgAwCkzCezi34lVGECZFaLMc/iuX4xDyxofRBnsQIZI1I90LIKkyPcPDr2SWMTqimQ7b4FAvkkt4afDg=="
+          },
+          {
+            "public_key": "r7ptX5iBUjC8qvCzyXkcVf9+xNrGMFrswWTq5FhDKbM=",
+            "signature": "DE3ur3cVqTOlt0pVuopcT9CvBKUTed918wNT3gcLRg00HjHEw5jnVxjpMB8gPmSlPYTBOOahbiutY0dIVDi9DA=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFggQHpgQ6U46RryD/SAapArUbd9SZfT5/dH905SurFEfHVjcDJwomJpZFggJ/3ELsdtSV2+ttDGK8bMFTvU2Xl/4jaQlyr1PSuXrwlpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYILlrasEAETp3i7bvlGzBMiamAe03jzft1m1Zcseq4vvbaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCA+CzBipNuWzbj8BNPM0JGQTAHYQwDDu7unf/I5TzyFr2Vyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIIWi9zD6HhpW1qvOzYwvBI61l/EI8FR0ARs4whPsBurKaWFkZHJlc3Nlc4GiYmlkWCAn/cQux21JXb620MYrxswVO9TZeX/iNpCXKvU9K5evCWdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//95JMsbZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCD4wGDMj2aXMmw7EgNWJvtexjhfhrhipfrt2kfwi32xfmpleHBpcmF0aW9uGQVJ",
+        "signatures": [
+          {
+            "public_key": "QHpgQ6U46RryD/SAapArUbd9SZfT5/dH905SurFEfHU=",
+            "signature": "aIKTegRRka4Uar0aruxoVlG/CaMT24S2YwjdF0r1fS231xcur8PbYI8hz3/QxVUZDQns49StVU4IbW+BdGAiCQ=="
+          },
+          {
+            "public_key": "J/3ELsdtSV2+ttDGK8bMFTvU2Xl/4jaQlyr1PSuXrwk=",
+            "signature": "aTPNbI3aSJkufAxTFzqTzMuFh8xpysBpq7znZhA7iG2vLxQo7F8J3qXnCI2U8qllnvxPheQ7xgOXFdGbQjm0AA=="
+          },
+          {
+            "public_key": "haL3MPoeGlbWq87NjC8EjrWX8QjwVHQBGzjCE+wG6so=",
+            "signature": "H7/Z61oD8oxyz16U1EPWLUopc/9Se8Gh+ErJSytKoLP1SCt5+Mz2ohBRjpEvJ6tYNiuWXKLZNjPgMWvy4fR1Ag=="
+          },
+          {
+            "public_key": "uWtqwQAROneLtu+UbMEyJqYB7TePN+3WbVlyx6ri+9s=",
+            "signature": "iioiWpBxO17adp9ybni11jQFDCTZhCq6HXAgUuFNmfplE3sZiQ2dvvIvVbCUatqXeSIcWYZjikgR9HqZi28lDQ=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFggXmFejgNp1zf+4waHq0thsfYPFOJJ0qn0uJatDiqE2KhjcDJwomJpZFggmwlEgb9iKgE3iGEdYQIkqx4Aqdj4bq76FTPZa1uaEBxpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIMQDI3yQ3FBVHMIGRhELjnbsfIAHXPiBRKnHAdix3Ro1aWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIFBnHmrCpRVR7M8Gw3JKBjbKZpdiD6qtW2apS6AEs123aWFkZHJlc3Nlc4GiYmlkWCCbCUSBv2IqATeIYR1hAiSrHgCp2PhurvoVM9lrW5oQHGdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//8iVpG1ZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCB6Q/iP7zXtCGHf8Ou4FdW//zKkjYICcrUsB+5XE1rM12pleHBpcmF0aW9uGQVJ",
+        "signatures": [
+          {
+            "public_key": "XmFejgNp1zf+4waHq0thsfYPFOJJ0qn0uJatDiqE2Kg=",
+            "signature": "JBWKbJMzPiwbpQ/Qfb8ZZHET6qq34reEmOovsu0Wx3zZhlYbLWIaGMhwQku+OtHLQQ5sdSq9no0VT3QxjwFcDQ=="
+          },
+          {
+            "public_key": "mwlEgb9iKgE3iGEdYQIkqx4Aqdj4bq76FTPZa1uaEBw=",
+            "signature": "XYzRRwJX8vvL8mZj4c4iOKqoh8yLBXAg8Q2bGRkkKG79E+zCIvQTlmsbUCKsOwWa0YT+tQbfD02lbfFP4rreBA=="
+          },
+          {
+            "public_key": "UGceasKlFVHszwbDckoGNspml2IPqq1bZqlLoASzXbc=",
+            "signature": "0JObu+fNAN0dQoeNi0vMI9qnDeDYph9kLxDJslIej7qnAq59vftAbhK5F3weKDv4u+CSKVSOmCgFsd9xauJwBw=="
+          },
+          {
+            "public_key": "xAMjfJDcUFUcwgZGEQuOdux8gAdc+IFEqccB2LHdGjU=",
+            "signature": "JC2Da3HfPfzhlIZInLuitL/4g9IoWrhFHM7Tonbq3igaE3Ure2gcwP8EetSbwnG1gqaBCyFGkVGQNl+Xr1+FBg=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFgg6DLSIwy1kwuwG0Ea4ZWNF5QlRkAX66BzHRBERNnXOH9jcDJwomJpZFggqjMLw7IG5/Abb/gy6/V8Df/sISPEtmcw30mdw4ME3Z5pYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIPwg0bR2B3Lu2jHZiMqm+YtjmT09/lfvIJKq+iRqUf++aWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCD2pyr1NlAyudWHdV7jrm7Sscw7d4SykpPLQ4LcFs5VlWVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYICxhEaab0VjXUgk3JFVHQSEUQ5I03m+790tWLZCxotYBaWFkZHJlc3Nlc4GiYmlkWCCqMwvDsgbn8Btv+DLr9XwN/+whI8S2ZzDfSZ3DgwTdnmdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//8FD0CJZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCB/tkdjvmCLXQL2NBfPg3c//h1FC//8sD7b1K5bTadlVGpleHBpcmF0aW9uGQVJ",
+        "signatures": [
+          {
+            "public_key": "6DLSIwy1kwuwG0Ea4ZWNF5QlRkAX66BzHRBERNnXOH8=",
+            "signature": "t4v+/Zgvfk1rsRmRJ35w/F6NruXpeMiYs2Md2uCn/9bBp7MV+UgaeX1Gl+k0E0sRfkxt3slRbeki+A3mI31rAQ=="
+          },
+          {
+            "public_key": "qjMLw7IG5/Abb/gy6/V8Df/sISPEtmcw30mdw4ME3Z4=",
+            "signature": "H+lJ2k7eB+smlWoKH6lItrbB5HGmrViKPbjT/Em+TYsODPvs1TgDG/ua3ZDRgqS2XzI2fnfRyLySZYKNXBSxCw=="
+          },
+          {
+            "public_key": "LGERppvRWNdSCTckVUdBIRRDkjTeb7v3S1YtkLGi1gE=",
+            "signature": "myWIYiVYV5s3yBg6bbBq43wHQAVQ9qWPF3JHdPV/FlQ/V+DC7+Xm1UAFbjm5pKfwGuJiWtlrIuRaoW76tdRoDw=="
+          },
+          {
+            "public_key": "/CDRtHYHcu7aMdmIyqb5i2OZPT3+V+8gkqr6JGpR/74=",
+            "signature": "Sq48myBbiIqJc4AwoJrtQDSnhWqtB806Q3xS2XpL9VrbcptZOtQ1DH8UfolIYNiLCJMUQSDeKbCwEkI7UoSeCw=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFgg0345Ql2nnd0fJX6cjIF0QtoUuAJ9rZW+CmbhflKB6jRjcDJwomJpZFggjK0sirMJYidpXkE6Uh3KOTBs9LRXZsRqT4sM93XjY+tpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIEOMulBvyv1lS7dtWv+kT8qFvdSUEvs80QaRGu8C4MTcaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIMOj/Ne/Xc+dhEzLSM+MrXnAilAG57NE2idHDnWy25U2aWFkZHJlc3Nlc4GiYmlkWCCMrSyKswliJ2leQTpSHco5MGz0tFdmxGpPiwz3deNj62dhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//8iVunPZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCD9a1BkzXxM3Nh1ZGUufhJbs6uf90rc7mK4teoGwiJrC2pleHBpcmF0aW9uGQVJ",
+        "signatures": [
+          {
+            "public_key": "0345Ql2nnd0fJX6cjIF0QtoUuAJ9rZW+CmbhflKB6jQ=",
+            "signature": "ay6ZguteXmqO0H4iszc+9pq0x/iVx1qfXesc0kl+l2zRuRaU+OlXyCe3qSq9e0h308ceaGVp05DIJ1sY6TOGBw=="
+          },
+          {
+            "public_key": "jK0sirMJYidpXkE6Uh3KOTBs9LRXZsRqT4sM93XjY+s=",
+            "signature": "+efSDs787TjI4GZ+aLFYvOmMBwSS1RHLawQWla+mWOe94GQ/KggUo56PaTazrS3qNf+IkYeVgGzbdfZuV2G9DQ=="
+          },
+          {
+            "public_key": "w6P8179dz52ETMtIz4ytecCKUAbns0TaJ0cOdbLblTY=",
+            "signature": "uEVrB3QjTyujRKM/yNIG2e0JIRi+dKVkcQlB7U6uoOyHqYCqpK0qRjjlSZ3s+tltuRHs0Lbpns8GuJTs9QuBCA=="
+          },
+          {
+            "public_key": "Q4y6UG/K/WVLt21a/6RPyoW91JQS+zzRBpEa7wLgxNw=",
+            "signature": "L42X3i96D0WY0nRz8EeKxzjsWMcq/IsWh/FMAI0QooJ8XgPa/ykHCP+xLsyfsPF951/13kSxLv0LrTMtWph7CA=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFgg60p9Up+lZUsdj+msWtvMs2vGM+Q3/bpxjyvWbjG1Ln5jcDJwomJpZFgg1/ePI/fhCntF/l6oUxDNgF4TsKNcoWpgg6qFNTVdEuZpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIOdGv2WscaYtO02tPO4cy9fi23BXqYZq1xe3eJcZ29O/aWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCBIplJWgLTIFiSpsQjaxGJkpUidjeyuVhwgTHYtvXjC62Vyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIJLwI8S4apVeKm7s77MWVkf2Qr2w0yTGr6LTrGzWysWcaWFkZHJlc3Nlc4GiYmlkWCDX948j9+EKe0X+XqhTEM2AXhOwo1yhamCDqoU1NV0S5mdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//80ux4ZZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCCttRpdJRsK+tmtiILQfh4vIZVm+sWRAQ6tChmNoMCiUWpleHBpcmF0aW9uGQVJ",
+        "signatures": [
+          {
+            "public_key": "60p9Up+lZUsdj+msWtvMs2vGM+Q3/bpxjyvWbjG1Ln4=",
+            "signature": "6BmeBAw7M+v4AbXJdCwh+4HgVne9vsvZxe6KdDvnAa5u9fW3LTqzNNBLZpjNdDSKF6l/taHXf8CFGGQaUalQCA=="
+          },
+          {
+            "public_key": "1/ePI/fhCntF/l6oUxDNgF4TsKNcoWpgg6qFNTVdEuY=",
+            "signature": "u+UlpDIUCPDb2xQ4P2yBOtEuRbnrJBX/m72XmeQX8d6rxD81YWfZnRmeeYWnlkjT9va3BpjnuAzcIwvzGSycCw=="
+          },
+          {
+            "public_key": "kvAjxLhqlV4qbuzvsxZWR/ZCvbDTJMavotOsbNbKxZw=",
+            "signature": "5Cp6zKzYEG2IQWqjobkal6T4yvgJVMZxRPKIK2thsbSXVHWCRNyrruTpL1oOxVe87n/6utyU121K5nh0+2XMAg=="
+          },
+          {
+            "public_key": "50a/Zaxxpi07Ta087hzL1+LbcFephmrXF7d4lxnb078=",
+            "signature": "Nztm4hRYEj7YxBvTCX1ljsZFnssgr9uKBQ5uXM+8k/6qMC6j9MZM+pJgsAfZ4BchvqhYIuyxt1ZSq13hXBExDQ=="
+          }
+        ]
+      }
+    ],
+    "node_statuses": {
+      "/+jFssIig6yKkZigW0vbDh3sJky0kmlZRhsMV+RReeM=": {
+        "expiration_processed": false,
+        "freeze_end_time": 0
+      },
+      "0345Ql2nnd0fJX6cjIF0QtoUuAJ9rZW+CmbhflKB6jQ=": {
+        "expiration_processed": false,
+        "freeze_end_time": 0
+      },
+      "2KBFuNAGYMA8vlINnVcn4y7VnISXee2wFwZ5kX3Lrh0=": {
+        "expiration_processed": false,
+        "freeze_end_time": 0
+      },
+      "60p9Up+lZUsdj+msWtvMs2vGM+Q3/bpxjyvWbjG1Ln4=": {
+        "expiration_processed": false,
+        "freeze_end_time": 0
+      },
+      "6DLSIwy1kwuwG0Ea4ZWNF5QlRkAX66BzHRBERNnXOH8=": {
+        "expiration_processed": false,
+        "freeze_end_time": 0
+      },
+      "7FSnIMb9i57buRKKJ9qEDcetKonWU1z6o+An6fHdjuY=": {
+        "expiration_processed": false,
+        "freeze_end_time": 0
+      },
+      "QHpgQ6U46RryD/SAapArUbd9SZfT5/dH905SurFEfHU=": {
+        "expiration_processed": false,
+        "freeze_end_time": 0
+      },
+      "XmFejgNp1zf+4waHq0thsfYPFOJJ0qn0uJatDiqE2Kg=": {
+        "expiration_processed": false,
+        "freeze_end_time": 0
+      },
+      "jRpYrK1bKUeYgt0RI+72cKtnm40tSlqDcFMVDpIgNLc=": {
+        "expiration_processed": false,
+        "freeze_end_time": 0
+      },
+      "uyLFYk/B03M6yU3DYFnMa0pdSLnzeyBmtK9WAeNdXXw=": {
+        "expiration_processed": false,
+        "freeze_end_time": 0
+      },
+      "v/IjgQcadD3ymDxGoiyGmBO90yyzRDot2KSsoO28b4g=": {
+        "expiration_processed": false,
+        "freeze_end_time": 0
+      },
+      "yhAiVR3EUBsc+0GqIZidJMtgB5XVjt+hzMjvnRjhI/M=": {
+        "expiration_processed": false,
+        "freeze_end_time": 0
+      }
+    }
+  },
+  "roothash": {
+    "params": {
+      "gas_costs": {
+        "compute_commit": 1000,
+        "proposer_timeout": 1000
+      }
+    },
+    "runtime_states": {
+      "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wA=": {
+        "state_root": "r6s7ABt3GHG6BIwXyXgFM9mLmvHb0pGafd85LKBwlgQ=",
+        "state": [],
+        "storage_receipts": [],
+        "round": 1109
+      },
+      "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wE=": {
+        "state_root": "6NLtUbCMnFMzrui8tVh3IazjBBKXyWZtEufAkEV0S3Q=",
+        "state": [],
+        "storage_receipts": [],
+        "round": 26074
+      },
+      "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wI=": {
+        "state_root": "xxT1Ldp/ulV2aKX0TLkFdGwcSD7bsGha70etII4dVlc=",
+        "state": [],
+        "storage_receipts": [],
+        "round": 117
+      },
+      "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEjRVU=": {
+        "state_root": "3+5m33odDVJDQB2se+Lzar24R2FtgFvS6gsWZ8SqKqs=",
+        "state": [],
+        "storage_receipts": [],
+        "round": 136
+      },
+      "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEjRVY=": {
+        "state_root": "9ygKjgFpjSrbjrCrXgS/UHEVs8HujW+lmJBPAxBpklY=",
+        "state": [],
+        "storage_receipts": [],
+        "round": 1
+      }
+    }
+  },
+  "staking": {
+    "params": {
+      "thresholds": {
+        "entity": "100000000000",
+        "node-compute": "100000000000",
+        "node-keymanager": "100000000000",
+        "node-storage": "100000000000",
+        "node-validator": "100000000000",
+        "runtime-compute": "10000000000000",
+        "runtime-keymanager": "10000000000000"
+      },
+      "debonding_interval": 336,
+      "signing_reward_threshold_numerator": 3,
+      "signing_reward_threshold_denominator": 4,
+      "commission_schedule_rules": {
+        "rate_change_interval": 1,
+        "rate_bound_lead": 336,
+        "max_rate_steps": 10,
+        "max_bound_steps": 10
+      },
+      "slashing": {
+        "0": {
+          "amount": "100000000000000",
+          "freeze_interval": 18446744073709551615
+        }
+      },
+      "gas_costs": {
+        "add_escrow": 1000,
+        "burn": 1000,
+        "reclaim_escrow": 1000,
+        "transfer": 1000
+      },
+      "min_delegation": "100000000000",
+      "fee_split_weight_propose": "2",
+      "fee_split_weight_vote": "1",
+      "fee_split_weight_next_propose": "1",
+      "reward_factor_epoch_signed": "1",
+      "reward_factor_block_proposed": "0"
+    },
+    "token_symbol": "TEST",
+    "token_value_exponent": 9,
+    "total_supply": "10000000000000000000",
+    "common_pool": "257",
+    "last_block_fees": "0",
+    "ledger": {
+      "oasis1qp2en4j05632ja3ld80j26zx2q4ux5hutvxe0l58": {
+        "general": {
+          "balance": "30000010000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qp42dyyvetm9egz2jeuzju2td8cggu0j4vqqqqh8": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qp4q2vhu6dctzr98lrm82v9gvw36lhwy8q4ln8re": {
+        "general": {
+          "balance": "300000000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qp62sfcv5hjm74fuwcvtek0ua9xycqt2mq6lmamu": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qp63szvglk3slmt8ztuqd80n7e233fsq45mtn3vc": {
+        "general": {
+          "balance": "2000000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qp6ayg96j7udnaexq5psuxzp88w38lkn8gh0lr9l": {
+        "general": {
+          "balance": "0",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qp97vnu6ueavu5x6n25wkmr3pflc342shsvkmadc": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpc66dgff4wrkj8kac4njrl2uvww3c9m5ycjwar2": {
+        "general": {
+          "balance": "300278117592",
+          "nonce": 11
+        },
+        "escrow": {
+          "active": {
+            "balance": "300000000000",
+            "total_shares": "300000000000"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpcgnf84hnvvfvzup542rhc8kjyvqf4aqqlj5kqh": {
+        "general": {
+          "balance": "99445000000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpe0h2ngrsdx7jf6wupy03hmyglvrhdmdvsxq3mz": {
+        "general": {
+          "balance": "2129999996",
+          "nonce": 4
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpeaxlxspdyk70yu56zclhe2dnw46dhkmsdddscf": {
+        "general": {
+          "balance": "1000000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpee89h3ur5m7u93n6agl8nxytw6un6j0uxqmkq0": {
+        "general": {
+          "balance": "0",
+          "nonce": 14
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpfhvyuazhwrmrfgssvg7637sgwa6mx3gyhnht40": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpflyh6wncv53w4xxxrfyascz4px44ec5ujqnwyg": {
+        "general": {
+          "balance": "2139999999",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpgswa8y5ffe200tgj4a2d5sq5v3funs7vp979lt": {
+        "general": {
+          "balance": "28700000000",
+          "nonce": 7
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qphdkldpttpsj2j3l9sde9h26cwpfwqwwuhvruyu": {
+        "general": {
+          "balance": "21480000000",
+          "nonce": 9
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpj53c0k63ez6097nw2nujrumqjhjeyp9cw67ca8": {
+        "general": {
+          "balance": "29010000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpjs5vfvrxnk5guu0g8qdr5a6l5zes5pasgeak8j": {
+        "general": {
+          "balance": "123000000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpkkdc8vm4vs23fyma4dyx9u6wa3kxuq05mjvh8u": {
+        "general": {
+          "balance": "99999997243",
+          "nonce": 2
+        },
+        "escrow": {
+          "active": {
+            "balance": "200000000000",
+            "total_shares": "200000000000"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpkl3vykn9mf4xcq9eevmey4ffrzf0ajtcpvd7sk": {
+        "general": {
+          "balance": "100278127592",
+          "nonce": 6
+        },
+        "escrow": {
+          "active": {
+            "balance": "200000000000",
+            "total_shares": "200000000000"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {
+            "rates": [
+              {
+                "start": 1000,
+                "rate": "10000"
+              }
+            ],
+            "bounds": [
+              {
+                "start": 1000,
+                "rate_min": "0",
+                "rate_max": "25000"
+              }
+            ]
+          },
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpku8vt6r68hg9xpx0lcq327cedcvygwasfmkqv4": {
+        "general": {
+          "balance": "0",
+          "nonce": 22127
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpl4axynedmdrrgrg7dpw3yxc4a8crevr5dkuksl": {
+        "general": {
+          "balance": "274899999999",
+          "nonce": 4
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpl5634wyu6larn047he9af7a3qyhzx59u0mquw7": {
+        "general": {
+          "balance": "1523000000000",
+          "nonce": 2
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qplnz99yjcp4rccj2tzcestmdxwahca88gdecfp3": {
+        "general": {
+          "balance": "0",
+          "nonce": 2
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpmfre9f6r5l8qg5v5mnp6zqmhxfj7znkvnxjzls": {
+        "general": {
+          "balance": "18000000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qppwjzmn7qezkjzswjwy0f4utvcufnrpjyazz7zy": {
+        "general": {
+          "balance": "298999991000",
+          "nonce": 8
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qppypegujlclpn0q4s44agkana8uy22svq5ttfhq": {
+        "general": {
+          "balance": "1000000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpr6rrp309lgwdd2596gldqq5w0dude4wcp5dtu3": {
+        "general": {
+          "balance": "298999996000",
+          "nonce": 2
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpu2dvv8uxgk05kpcmyp95m2wspznhgfuvdyptng": {
+        "general": {
+          "balance": "0",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpucjz5nse4et8m46pd8xjru0zmdlm7ag55dul6e": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpukl6k68s7evses35dut4mkcyx86z6dkuv07pmv": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpwsd9rj3elfydvgxr8s0lfpsv7dy9f5lvszmage": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpxes778j65l8axmnm3gjhq4xtzrda8pvqtjup6t": {
+        "general": {
+          "balance": "0",
+          "nonce": 12
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpxt6sl3p3n0pgz29tcf23zr4p9m923gcy7jam7x": {
+        "general": {
+          "balance": "99899380000000",
+          "nonce": 33
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpza73zhrafmks2tpnudjyddpxwlg5kuyvkhhuy3": {
+        "general": {
+          "balance": "294899996945",
+          "nonce": 7
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpzcye904skkyr2ksxlpudw0vdcwmj684v2t4nl9": {
+        "general": {
+          "balance": "0",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpzqhljqydse934pr0evgdk7yz0fay7rly8hkyff": {
+        "general": {
+          "balance": "3140000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qpzunk2dkwzwhwma9cf8e6s3wnv7d2jhfchxv40k": {
+        "general": {
+          "balance": "10000000000",
+          "nonce": 8
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qq0966lggnnfe6khx2ld2lxuvtyxlfxwgcz3annc": {
+        "general": {
+          "balance": "3140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qq2shnf0qqnpvneq0mfq8fv56qnydz09lq95n0xc": {
+        "general": {
+          "balance": "302140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qq2vzcvxn0js5unsch5me2xz4kr43vcasv0d5eq4": {
+        "general": {
+          "balance": "2780804220"
+        },
+        "escrow": {
+          "active": {
+            "balance": "10010000000000000",
+            "total_shares": "10010000000000000"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qq2xx4pgk0wa73363l287wy48lmaf3v8tymthyhv": {
+        "general": {
+          "balance": "3303171233333333343",
+          "nonce": 14
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qq434rvsphs2uql3qtn5ef9fmam4np06ug3wl0w6": {
+        "general": {
+          "balance": "599000000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qq4psu4wa8vt46rkl28nk2yh2k3caav2454qv2we": {
+        "general": {
+          "balance": "297010000000",
+          "nonce": 5
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qq5uqutwpgrwuwhzlxjssnkuta3kzph8kqsp9e6g": {
+        "general": {
+          "balance": "1967000000000",
+          "nonce": 3
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qq67g9xr8ezlg0qzzj7rxuctlsrglzrmsc5540n4": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qq6xg5m9lv2x62sew4xfsyx5m265gh0mxspa8pvs": {
+        "general": {
+          "balance": "0",
+          "nonce": 2286
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qq706satr634yu57d9ha3gfwa5sv4h6egs0wa8dh": {
+        "general": {
+          "balance": "99959180000000",
+          "nonce": 13
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qq8lrwpuj6adsnefge9ma674sma27gatdytsaz7t": {
+        "general": {
+          "balance": "247799684497",
+          "nonce": 20
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qq8xj2ys0f5kc8g8r2h4cw4p3e3mcny6du2m4esj": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qq8xsly7g3z2ahmm96exu3h566hjsdqa7gghuzgc": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qq9dy5xlkrp6y3ckfp8rx8edq77c88ttl5qe3p2u": {
+        "general": {
+          "balance": "278140047",
+          "nonce": 28
+        },
+        "escrow": {
+          "active": {
+            "balance": "60000000000000",
+            "total_shares": "60000000000000"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {
+            "rates": [
+              {
+                "start": 987,
+                "rate": "95000"
+              }
+            ],
+            "bounds": [
+              {
+                "start": 987,
+                "rate_min": "0",
+                "rate_max": "100000"
+              }
+            ]
+          },
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqaa8y58c0655dw30d23cp6yjz9ldkgsevhpwp4y": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqad22qxp2an7k9en7983026uetlnq3k2g07cpvq": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqaz80ylc4hspw6rl2vv6pxzmv7umwv3350fcsqp": {
+        "general": {
+          "balance": "278138864",
+          "nonce": 4
+        },
+        "escrow": {
+          "active": {
+            "balance": "50000000000000",
+            "total_shares": "50000000000000"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqcqd3y38yj2508t29kptrl9g3uma06x7qlu59tf": {
+        "general": {
+          "balance": "0",
+          "nonce": 9
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqctussz0gr78avhwhjtjch8y9xp29xyucy8q2pt": {
+        "general": {
+          "balance": "0",
+          "nonce": 916
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqfczmk5ru9ecyws87gds6f9sh4lfr2xdqj3u0sy": {
+        "general": {
+          "balance": "0",
+          "nonce": 620
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqg3am3gjglhvnry089nqcmhzncxmdedvcyk9gjc": {
+        "general": {
+          "balance": "100999998600",
+          "nonce": 4
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqgnfptqf6r7x5zzkqrvfdgf74kctndzdunf3q5p": {
+        "general": {
+          "balance": "2139999000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqjcjlnrd2vwk69387jp6snzkj4rvh3vxvytp67u": {
+        "general": {
+          "balance": "300000000000",
+          "nonce": 165
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqjmu7wrfk9p9lq8gmy032kjw5q5tv82qckp97cm": {
+        "general": {
+          "balance": "99999997062",
+          "nonce": 2
+        },
+        "escrow": {
+          "active": {
+            "balance": "200000000000",
+            "total_shares": "200000000000"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqk7std64f8y6cnxpme4207wc4aadgcp4svmktkk": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqmtnurn2fjdpes5rkd6nqf635x0jr7xzuz32sfy": {
+        "general": {
+          "balance": "299000000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqnmerrfhkp8yvp0p8vpncsh6slrn49fzgzvg2j9": {
+        "general": {
+          "balance": "52200000000",
+          "nonce": 20
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqr3ayusularv757m4dn5sdh0plf7wzfhgr0zne4": {
+        "general": {
+          "balance": "0",
+          "nonce": 1360
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqrtsjeg98mg8s43nkwu7a2pjre37p8r0c89jqqw": {
+        "general": {
+          "balance": "0",
+          "nonce": 1101
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqsuzqcvyd9f9897rtg9hcsaauh9va4vxu6shc5u": {
+        "general": {
+          "balance": "305110000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqswqdtqzt7jdv9legtjln963pe93ajyrc549h7x": {
+        "general": {
+          "balance": "0",
+          "nonce": 126
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqsxgy8a47yxx2g8a6kt3hwkpxmmeyvswq2fgdxv": {
+        "general": {
+          "balance": "1140000000",
+          "nonce": 2
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqv25adrld8jjquzxzg769689lgf9jxvwgjs8tha": {
+        "general": {
+          "balance": "379658752",
+          "nonce": 6
+        },
+        "escrow": {
+          "active": {
+            "balance": "10010832311111111",
+            "total_shares": "10010832311111111"
+          },
+          "debonding": {
+            "balance": "27800000000",
+            "total_shares": "27800000000"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qqy2xc0rgwjcqxzdd8spqw6quqkv4mnpjg2umv2d": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qr23l4zacyztf74uzwkqnycmpje9aasmryqlhnlv": {
+        "general": {
+          "balance": "3140000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qr2lyvm8s75dktlve78nj5e9vla6ctcq5sznazg6": {
+        "general": {
+          "balance": "0",
+          "nonce": 1187
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qr2tt4jkd45nr3rjn98ka8uj0lgn4nvv5uylr8c5": {
+        "general": {
+          "balance": "300000000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qr36wslky47hsql93epxqcrnkp502hpdx5fltal4": {
+        "general": {
+          "balance": "0",
+          "nonce": 4
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qr4m22a9679zqw7scnva4ft42j2ung3xhqjvc590": {
+        "general": {
+          "balance": "0",
+          "nonce": 9879
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qr68jsz0ctcvjy82lr35smjxjuj0avdq5uwxakvs": {
+        "general": {
+          "balance": "500000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qr69vzl0det6sxhlzme64p0c4cfwe52x0qggv4ar": {
+        "general": {
+          "balance": "0",
+          "nonce": 140
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qr7akunzxx2xljhqwhf98dpnu8ts65szkqs9ugjg": {
+        "general": {
+          "balance": "0",
+          "nonce": 1191
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qr7m76ufj6sg8ll3nw6xw0gcfvylz7gy4vftpg2z": {
+        "general": {
+          "balance": "0",
+          "nonce": 1675
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qr8j2uu2czktlp8sy84qs73ple3umdsj7yhx0pzq": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrahfvppdfd5w0t86xve6jdjt8ysgs32aqe8mgsf": {
+        "general": {
+          "balance": "4300000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrak89z3hc2u3cgvt2vdkw0ujee60vf2nyp9heyk": {
+        "general": {
+          "balance": "0",
+          "nonce": 448
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrc8673anu3g6hcuu357jndk7tl0pgyjzy0649u3": {
+        "general": {
+          "balance": "300000000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "40000000000000",
+            "total_shares": "40000000000000"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrcavm2qxv595gmw45pzna6gcy0393s6rg8f4eht": {
+        "general": {
+          "balance": "0",
+          "nonce": 2873
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrcx7rnpzy9jpl8h0aa7esy2aadztjcz35mvkrwf": {
+        "general": {
+          "balance": "5999993000",
+          "nonce": 4
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrd3cn72gte8ll8mn5awdmkvq0rpe0c8nc34007h": {
+        "general": {
+          "balance": "1139996000",
+          "nonce": 2
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qre5h8sfsag6mgh3ulln8gk8tjzqw04n7y2m885d": {
+        "general": {
+          "balance": "0",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qresxxttxwp52sj8jfpvz4wret0agwyuvvyzq4dm": {
+        "general": {
+          "balance": "0",
+          "nonce": 701
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrfudwgz5yl9ger82ayykgaym5tavfpqaur496rl": {
+        "general": {
+          "balance": "490000000",
+          "nonce": 2
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrgmg0t3zxn4lgary6w227dv6c5dl55rfvh6p6k2": {
+        "general": {
+          "balance": "3140000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrhkayvfmu9pj385jfmd0kmf29wy55lr6crqm52q": {
+        "general": {
+          "balance": "0",
+          "nonce": 1360
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrjhflqqsptnv5da42ygkmq0axfdxf0jpvltvr7k": {
+        "general": {
+          "balance": "694890000",
+          "nonce": 7
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrjqdwtfu2738ekkmtwxttgttmund8u4mucgh84q": {
+        "general": {
+          "balance": "5000000000",
+          "nonce": 6
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrlyrpvkgkluvwlwm4a2nw44z2xpcz4taqufan3v": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrmeqm709yht440e2ypf672p3h2r3gteyqyn6wcp": {
+        "general": {
+          "balance": "278138869",
+          "nonce": 28
+        },
+        "escrow": {
+          "active": {
+            "balance": "50000000000000",
+            "total_shares": "50000000000000"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrn9c0k92vk5leh62m942nqeq2kl9tmkaqk6lzz4": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrpmurj3ccrzqr4fspvzyapqva9jqkahnv82haml": {
+        "general": {
+          "balance": "3140000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrqmjsatqn23dvsv9edqllmfjlc4k5djaq6yfemp": {
+        "general": {
+          "balance": "1999000000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qruczmh02z7r8ycjepq2yt8qtkwdskccdgugshkv": {
+        "general": {
+          "balance": "25498888889",
+          "nonce": 8
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qruzqm6kz6n3kvdetm0dx3drntwz8ncatu27kag6": {
+        "general": {
+          "balance": "0",
+          "nonce": 885
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrv92kfc43hkf330nhvc3qvzejlmx9yl2ydy3ucs": {
+        "general": {
+          "balance": "2139999960",
+          "nonce": 2
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrwdwxutpyr9d2m84zh55rzcf99aw0hkts7myvv9": {
+        "general": {
+          "balance": "3333013779313333333",
+          "nonce": 6
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrxcqwh0l2z0764mwyj4jh7wn3a04vhzgq639dmz": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 3
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrxv6r6gdsu3n748u5cc8mp3rxwwsywj7u6eytwf": {
+        "general": {
+          "balance": "18795999990000",
+          "nonce": 11
+        },
+        "escrow": {
+          "active": {
+            "balance": "101000000000",
+            "total_shares": "101000000000"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrykfsd338dt3a458ekqfwzrrajf8qwpe53ehn9n": {
+        "general": {
+          "balance": "0",
+          "nonce": 691
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qrzecnuey93g574kem94ryg90xvgysp3w5rjvvf5": {
+        "general": {
+          "balance": "15700000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qz2tg4hsatlxfaf8yut9gxgv8990ujaz4sldgmzx": {
+        "general": {
+          "balance": "18190660420"
+        },
+        "escrow": {
+          "active": {
+            "balance": "10010000000000000",
+            "total_shares": "10010000000000000"
+          },
+          "debonding": {
+            "balance": "100000000000",
+            "total_shares": "100000000000"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qz2v0u2vrsezfe7mvrpxserkd2u894vt9g6vdq33": {
+        "general": {
+          "balance": "283999994000",
+          "nonce": 3
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qz2weu3fm3vq5ywyx4yfmd5hrjr3j6vxuuwwupvd": {
+        "general": {
+          "balance": "300000000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qz2xxu6nl6w08ac3562q27c0aglpyajp9g364ngm": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qz3yxnz7jndn73h4j6h566tf7vnyw7e005lxvuys": {
+        "general": {
+          "balance": "0",
+          "nonce": 1165
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qz424yg28jqmgfq3xvly6ky64jqnmlylfc27d7cp": {
+        "general": {
+          "balance": "282228856"
+        },
+        "escrow": {
+          "active": {
+            "balance": "10010000000000000",
+            "total_shares": "10010000000000000"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qz5d5656lxdhkuxcd93fyl4zxwx5paauzymx3ugh": {
+        "general": {
+          "balance": "2000000000",
+          "nonce": 2
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qz62vw2w9d5un0r8suaceth4p4k34qef550kkukc": {
+        "general": {
+          "balance": "0",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qz6k0rllwxsfafk6c98kmzsfhrvyd4p6cyguq9mv": {
+        "general": {
+          "balance": "3140000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qz7tcpfpt36p6wpmsryq07dvqsf3wwu75vaq4hnw": {
+        "general": {
+          "balance": "168479989000",
+          "nonce": 49
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qz88q845k6pzcj0ff65hqpewdk42sy35jyjhp0rf": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qz8k2crqlew0cvxx7vq3uwdh5j220snwtyl3l70q": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qz9n993yxepn0u7c9h2vetd0q0ygn8d6fqn5z94f": {
+        "general": {
+          "balance": "0",
+          "nonce": 1361
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qz9re9hc0k9qxrhvww7x9zrfv8x8jpr4kcr2twr2": {
+        "general": {
+          "balance": "9998580000000",
+          "nonce": 2
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzaghljmawz42h8qmtqd0qx5frq826gq5vlwhat6": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzc8dqdwy6r7lwgamvmt0lllllnml6507vrcx6gv": {
+        "general": {
+          "balance": "3140000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzdkatfqj8ygt2thdjwrvs4dssc3vksggqctnxpq": {
+        "general": {
+          "balance": "12185995988",
+          "nonce": 6
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzecjdw97ct4u038tde44pp3rl7wam7kns57chkx": {
+        "general": {
+          "balance": "1000500000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzet8wdkmr0c046xhu3tjw7508rtg4jghurn849h": {
+        "general": {
+          "balance": "0",
+          "nonce": 4
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzeucz6nf5mwmu9m2ny4slguye5n6d8q7uvxgzex": {
+        "general": {
+          "balance": "23810000000000",
+          "nonce": 5
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzexk3lhtu4uhsqxa4lkapluj3jnmejcfqt6lgm9": {
+        "general": {
+          "balance": "10000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzh4jzmt5fn4zladsuaxzm8tagn43gnar5mux7m3": {
+        "general": {
+          "balance": "0",
+          "nonce": 2
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzj6wsen84ep2glx5rl0vx660yrgrps9rce3zdk4": {
+        "general": {
+          "balance": "10000000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzjgxc3pea29psez4s7kvv9dj6eylutavsmj4uvl": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzjpg680vgzrsd4d28ehw9gn7shfrsqsngerkr0q": {
+        "general": {
+          "balance": "500000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzlelh73mlqfpma6qwt8rwccwvl7gvj2hq29l7dz": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzlgwlxlnvd8u2kky6tup7qvdpfewqscrulsqgru": {
+        "general": {
+          "balance": "3140000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzn7r7rmnk3w63e3f562x983xrfgr0cklchusgja": {
+        "general": {
+          "balance": "3323208240053331323",
+          "nonce": 25
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzp4n5s9zs3afk3m3vhvs4l4845ftguapyd0w5ra": {
+        "general": {
+          "balance": "3140000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzwe6xywazp29tp20974wgxhdcpdf6yxfcn2jxvv": {
+        "general": {
+          "balance": "50000348243",
+          "nonce": 2
+        },
+        "escrow": {
+          "active": {
+            "balance": "250000000000",
+            "total_shares": "250000000000"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzwhu7qrmqm24zgg542sdzwlypn6n7afgszydw9u": {
+        "general": {
+          "balance": "6140000000"
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzzc4d8060ly43w32698sn9rtgu9wtwp5sa6ru4f": {
+        "general": {
+          "balance": "1000000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzzlnush6e20akwwvg0l3wusa6pzvj54mgf737yk": {
+        "general": {
+          "balance": "0",
+          "nonce": 119
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      },
+      "oasis1qzzpvkd92hm2gyyyjwc9v9gnm6r9h8l9mc6vnyef": {
+        "general": {
+          "balance": "2140000000",
+          "nonce": 1
+        },
+        "escrow": {
+          "active": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "commission_schedule": {},
+          "stake_accumulator": {}
+        }
+      }
+    },
+    "delegations": {
+      "oasis1qpc66dgff4wrkj8kac4njrl2uvww3c9m5ycjwar2": {
+        "oasis1qpc66dgff4wrkj8kac4njrl2uvww3c9m5ycjwar2": {
+          "shares": "300000000000"
+        }
+      },
+      "oasis1qpkkdc8vm4vs23fyma4dyx9u6wa3kxuq05mjvh8u": {
+        "oasis1qpkkdc8vm4vs23fyma4dyx9u6wa3kxuq05mjvh8u": {
+          "shares": "200000000000"
+        }
+      },
+      "oasis1qpkl3vykn9mf4xcq9eevmey4ffrzf0ajtcpvd7sk": {
+        "oasis1qpkl3vykn9mf4xcq9eevmey4ffrzf0ajtcpvd7sk": {
+          "shares": "200000000000"
+        }
+      },
+      "oasis1qq2vzcvxn0js5unsch5me2xz4kr43vcasv0d5eq4": {
+        "oasis1qq2vzcvxn0js5unsch5me2xz4kr43vcasv0d5eq4": {
+          "shares": "10000000000000"
+        },
+        "oasis1qq2xx4pgk0wa73363l287wy48lmaf3v8tymthyhv": {
+          "shares": "10000000000000000"
+        }
+      },
+      "oasis1qq9dy5xlkrp6y3ckfp8rx8edq77c88ttl5qe3p2u": {
+        "oasis1qzn7r7rmnk3w63e3f562x983xrfgr0cklchusgja": {
+          "shares": "60000000000000"
+        }
+      },
+      "oasis1qqaz80ylc4hspw6rl2vv6pxzmv7umwv3350fcsqp": {
+        "oasis1qq2xx4pgk0wa73363l287wy48lmaf3v8tymthyhv": {
+          "shares": "50000000000000"
+        }
+      },
+      "oasis1qqjmu7wrfk9p9lq8gmy032kjw5q5tv82qckp97cm": {
+        "oasis1qqjmu7wrfk9p9lq8gmy032kjw5q5tv82qckp97cm": {
+          "shares": "200000000000"
+        }
+      },
+      "oasis1qqv25adrld8jjquzxzg769689lgf9jxvwgjs8tha": {
+        "oasis1qpl5634wyu6larn047he9af7a3qyhzx59u0mquw7": {
+          "shares": "500000000000"
+        },
+        "oasis1qruczmh02z7r8ycjepq2yt8qtkwdskccdgugshkv": {
+          "shares": "100111111111"
+        },
+        "oasis1qz7tcpfpt36p6wpmsryq07dvqsf3wwu75vaq4hnw": {
+          "shares": "32200000000"
+        },
+        "oasis1qzeucz6nf5mwmu9m2ny4slguye5n6d8q7uvxgzex": {
+          "shares": "200000000000"
+        },
+        "oasis1qzn7r7rmnk3w63e3f562x983xrfgr0cklchusgja": {
+          "shares": "10010000000000000"
+        }
+      },
+      "oasis1qrc8673anu3g6hcuu357jndk7tl0pgyjzy0649u3": {
+        "oasis1qzn7r7rmnk3w63e3f562x983xrfgr0cklchusgja": {
+          "shares": "40000000000000"
+        }
+      },
+      "oasis1qrmeqm709yht440e2ypf672p3h2r3gteyqyn6wcp": {
+        "oasis1qq2xx4pgk0wa73363l287wy48lmaf3v8tymthyhv": {
+          "shares": "50000000000000"
+        }
+      },
+      "oasis1qrxv6r6gdsu3n748u5cc8mp3rxwwsywj7u6eytwf": {
+        "oasis1qrxv6r6gdsu3n748u5cc8mp3rxwwsywj7u6eytwf": {
+          "shares": "101000000000"
+        }
+      },
+      "oasis1qz2tg4hsatlxfaf8yut9gxgv8990ujaz4sldgmzx": {
+        "oasis1qq2xx4pgk0wa73363l287wy48lmaf3v8tymthyhv": {
+          "shares": "10000000000000000"
+        },
+        "oasis1qz2tg4hsatlxfaf8yut9gxgv8990ujaz4sldgmzx": {
+          "shares": "10000000000000"
+        }
+      },
+      "oasis1qz424yg28jqmgfq3xvly6ky64jqnmlylfc27d7cp": {
+        "oasis1qq2xx4pgk0wa73363l287wy48lmaf3v8tymthyhv": {
+          "shares": "10000000000000000"
+        },
+        "oasis1qz424yg28jqmgfq3xvly6ky64jqnmlylfc27d7cp": {
+          "shares": "10000000000000"
+        }
+      },
+      "oasis1qzwe6xywazp29tp20974wgxhdcpdf6yxfcn2jxvv": {
+        "oasis1qzwe6xywazp29tp20974wgxhdcpdf6yxfcn2jxvv": {
+          "shares": "250000000000"
+        }
+      }
+    },
+    "debonding_delegations": {
+      "oasis1qqv25adrld8jjquzxzg769689lgf9jxvwgjs8tha": {
+        "oasis1qruczmh02z7r8ycjepq2yt8qtkwdskccdgugshkv": [
+          {
+            "shares": "10000000000",
+            "debond_end": 1685
+          }
+        ],
+        "oasis1qz7tcpfpt36p6wpmsryq07dvqsf3wwu75vaq4hnw": [
+          {
+            "shares": "10000000000",
+            "debond_end": 1551
+          },
+          {
+            "shares": "5000000000",
+            "debond_end": 1551
+          },
+          {
+            "shares": "100000000",
+            "debond_end": 1626
+          },
+          {
+            "shares": "2000000000",
+            "debond_end": 1629
+          },
+          {
+            "shares": "200000000",
+            "debond_end": 1630
+          },
+          {
+            "shares": "250000000",
+            "debond_end": 1630
+          },
+          {
+            "shares": "150000000",
+            "debond_end": 1630
+          },
+          {
+            "shares": "100000000",
+            "debond_end": 1630
+          }
+        ]
+      },
+      "oasis1qz2tg4hsatlxfaf8yut9gxgv8990ujaz4sldgmzx": {
+        "oasis1qruczmh02z7r8ycjepq2yt8qtkwdskccdgugshkv": [
+          {
+            "shares": "100000000000",
+            "debond_end": 1658
+          }
+        ]
+      }
+    }
+  },
+  "keymanager": {},
+  "scheduler": {
+    "params": {
+      "min_validators": 3,
+      "max_validators": 100,
+      "max_validators_per_entity": 1,
+      "reward_factor_epoch_election_any": "0"
+    }
+  },
+  "beacon": {
+    "params": {}
+  },
+  "consensus": {
+    "backend": "tendermint",
+    "params": {
+      "timeout_commit": 5000000000,
+      "skip_timeout_commit": false,
+      "empty_block_interval": 0,
+      "max_tx_size": 32768,
+      "max_block_size": 22020096,
+      "max_block_gas": 0,
+      "max_evidence_num": 50,
+      "state_checkpoint_interval": 10000,
+      "state_checkpoint_num_kept": 2,
+      "state_checkpoint_chunk_size": 8388608,
+      "gas_costs": {
+        "tx_byte": 1
+      }
+    }
+  },
+  "halt_epoch": 4000,
+  "extra_data": null
+}
